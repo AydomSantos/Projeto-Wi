@@ -1,3 +1,11 @@
+
+:root{
+    --corbranca: #ffffff;
+    --corEscura: #333;
+    --corVerde: #1ecc0e;
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -17,15 +25,8 @@ body{
     display: flex;
     justify-content: space-between;
     border: 1px solid #000;
-   
+    background: var(--corVerde);
     align-items: center;
 
 }
 
-.header .nav{
-    border: 1px solid #000;
-}
-
-.header .nav .nav__ul{
-    display: flex;
-}
